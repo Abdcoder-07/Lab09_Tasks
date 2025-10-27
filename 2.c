@@ -13,7 +13,7 @@ float applyDiscount(int Total){
 	return (float)Total;
 }
 float printBill(float Famount){
-	printf("Final amount to be paid is %f",Famount);
+	printf("Final amount to be paid is %.0f",Famount);
 }
 int main(){
 	int i,size,Total;
@@ -28,3 +28,4 @@ int main(){
 	Total=applyDiscount(Total);
 	printBill(Total);
 }
+
